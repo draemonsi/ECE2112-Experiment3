@@ -27,9 +27,24 @@ This experiment focuses on understanding and applying various DataFrame manipula
 3. Retrieve data based on column and row conditions using subsetting and slicing techniques.
 ---
 ## Problem Descriptions
+### Problem 1
+- Objective: Load the corresponding .csv file into a data frame named cars using pandas.<br/>
+  - Task:<br/>
+    - Use pd.read_csv to load the cars.csv<br/>
+  - Code sample:
+```
+cars = pd.read_csv('cars.csv')
+```
+- Objective: Display the first five and last five rows of the resulting cars.<br/>
+  - Task: <br/>
+    - Use pd.concat to concatenate the first five and last rows: cars.head(), cars.tail()<br/>
+  - Code sample:
+```
+print(pd.concat([cars.head(), cars.tails()])
+```
 
 ### Problem 2
-- Objective: Extract the first five odd-numbered rows (1, 3, 5, 7, 9) from the given DataFrame.<br/>
+- Objective: Extract the first five odd-numbered columns (1, 3, 5, 7...) from the given DataFrame.<br/>
   - Task:<br/>
     - Use the Pandas iloc function to select odd-numbered columns.
     - Display the first five odd-numbered rows.<br/>
