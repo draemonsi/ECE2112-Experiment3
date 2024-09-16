@@ -30,31 +30,31 @@ This experiment focuses on understanding and applying various DataFrame manipula
 
 ### Problem 2
 - Objective: Extract the first five odd-numbered rows (1, 3, 5, 7, 9) from the given DataFrame.<br/>
-- Task:<br/>
-  - Use the Pandas iloc function to select odd-numbered columns.
-  - Display the first five odd-numbered rows.<br/>
-- Code sample:
+  - Task:<br/>
+    - Use the Pandas iloc function to select odd-numbered columns.
+    - Display the first five odd-numbered rows.<br/>
+  - Code sample:
 ```
 print(cars.iloc[:5,::2]
 ```
 - Objective: Extract the row that contains the 'Model' of 'Mazda RX4'.<br/>
-- Task:<br/>
-  - Use the Pandas loc function to retrieve the row containing the car model 'Mazda RX4'.<br/>
-- Code sample:
+  - Task:<br/>
+    - Use the Pandas loc function to retrieve the row containing the car model 'Mazda RX4'.<br/>
+  - Code sample:
 ```
 print(cars[cars['Model'] == 'Mazda RX4']
 ```
 - Objective: Determine how many cylinders ('cyl') the car model 'Camaro Z28' has.<br/>
-- Task:<br/>
-  - Filter the DataFrame to find the row for 'Camaro Z28' and retrieve the number of cylinders.<br/>
-- Code sample:
+  - Task:<br/>
+    - Filter the DataFrame to find the row for 'Camaro Z28' and retrieve the number of cylinders.<br/>
+  - Code sample:
 ```
 print(cars[cars['Model'] == 'Camaro Z28']['cyl']
 ```
 - Objective: Retrieve the number of cylinders ('cyl') and gear type ('gear') for the car models: 'Mazda RX4 Wag', 'Ford Pantera L', and 'Honda Civic'.<br/>
-- Task:<br/>
-  - Use the Pandas isin() method to filter for these models and display the required columns.<br/>
-- Code sample:
+  - Task:<br/>
+    - Use the Pandas isin() method to filter for these models and display the required columns.<br/>
+  - Code sample:
 ```
 models = ['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']
 selected_cars = cars[cars['Model'].isin(models)][['Model', 'cyl', 'gear']]
