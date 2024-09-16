@@ -108,7 +108,7 @@ To run the provided Python code, ensure you have the following installed:<br/>
 - Jupyter Notebook for code execution and analysis
 ---
 ## License<br/>
-- This project is licensed under The Unlicense. Please see [LICENSE](https://github.com/draemonsi/ECE2112-Experiment2/blob/main/LICENSE.txt) file for more details.
+- This project is licensed under The Unlicense. Please see [LICENSE](https://github.com/draemonsi/ECE2112-Experiment3/blob/main/LICENSE.txt) file for more details.
 ---
 ## Author<br/>
 - Andrei Jorelle C. Simon<br/>
