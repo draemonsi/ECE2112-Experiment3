@@ -1,11 +1,11 @@
 # Experiment 3: Python Data Analysis (PANDAS)
 
 ## Course: ECE 2112 - Advanced Computer Programming and Algorithms <br/>
-**Institution**: University of Santo Tomas, Faculty of Enginering, Electronics Engineering Department
+**Institution**: University of Santo Tomas, Faculty of Engineering, Electronics Engineering Department
 
 ## Project Overview
 
-This experiment focuses on understanding and applying various DataFrame manipulation techniques using the Pandas library in python. The goal is to implement and solve the following problems related to slicing, indexing, and subsetting a DataFrame:
+This experiment focuses on understanding and applying various DataFrame manipulation techniques using the Pandas library in Python. The goal is to implement and solve the following problems related to slicing, indexing, and subsetting a DataFrame:
 
 1. Extract odd-numbered rows and columns from a given DataFrame.<br/>
 2. Retrieve specific rows and columns using indexing.<br/>
@@ -93,9 +93,10 @@ To run the provided Python code, ensure you have the following installed:<br/>
 ---
 ## Usage
 1. Open the Python environment (Jupyter Notebook, VS Code, etc.).<br/>
-2. Load the provided dataset into a Pandas DataFrame.<br/>
-3. Run the code snippets for each problem sequentially.<br/>
-4. Upon running the code, you'll see the output directly in your environment.
+2. Change the file extension .py to .ipynb of the PA files.
+3. Load the provided dataset into a Pandas DataFrame.<br/>
+4. Run the code snippets for each problem sequentially.<br/>5
+5. Upon running the code, you'll see the output directly in your environment.
 ---
 ## Files included
 - Simon_Pandas-P1.py: Python file containing the solution to Problem 1<br/>
